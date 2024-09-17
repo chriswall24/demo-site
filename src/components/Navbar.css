@@ -24,6 +24,7 @@
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
+  gap: 10px;
   font-size: 2rem;
   display: flex;
   align-items: center;
