@@ -36,6 +36,9 @@
 
 .about-title {
   padding-top: 30px;
+  font-size: 25px; /* Adjust the font size of the title */
+  margin-bottom: 20px; /* Space between the title and the gallery */
+  text-align: center; /* Center the text */
 }
 
 .about-card-container {
