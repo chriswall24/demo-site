@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import { Link } from 'react-router-dom';
 import { Button } from "./Button";
 import "./HeroSection.css";
 
@@ -15,7 +16,9 @@ function HeroSection() {
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
+          <Link to='/about'>
           MORE INFO
+          </Link>
         </Button>
         <Button
           className="btns"
