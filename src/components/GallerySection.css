@@ -1,0 +1,64 @@
+.gallery-container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center content horizontally */
+  overflow: hidden; /* Hide overflow to prevent unwanted scrollbars */
+  padding: 40px; /* Increased padding to add more space around the gallery */
+}
+
+.gallery-title {
+  font-size: 3rem; /* Adjust the font size of the title */
+  margin-bottom: 20px; /* Space between the title and the gallery */
+  text-align: center; /* Center the text */
+}
+
+.gallery-wrapper {
+  display: flex;
+  justify-content: center; /* Center the gallery within the wrapper */
+  width: 100%; /* Make sure the wrapper takes up the full width */
+  max-width: 1600px; /* Increased max width of the gallery */
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.gallery {
+  display: flex;
+  gap: 20px; /* Space between images */
+  scroll-snap-type: x mandatory; /* Enable snap scrolling for smooth transitions */
+}
+
+.gallery img {
+  flex-shrink: 0; /* Prevent images from shrinking */
+  height: 400px; /* Set a consistent height for images */
+  object-fit: cover; /* Cover the area while maintaining aspect ratio */
+  border-radius: 8px; /* Optional: add rounded corners */
+  scroll-snap-align: start; /* Align images for snap scrolling */
+}
+
+/* Hide the scrollbar for Webkit browsers */
+.gallery-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Media Query for Mobile Screens */
+@media (max-width: 768px) {
+  .gallery-wrapper {
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Disable horizontal scrolling */
+  }
+
+  .gallery {
+    flex-direction: column; /* Stack images vertically */
+    gap: 20px; /* Space between images */
+    scroll-snap-type: y mandatory; /* Snap scrolling vertically */
+  }
+
+  .gallery img {
+    width: 100%; /* Make images fill the width of the container */
+    height: auto; /* Adjust height to maintain aspect ratio */
+    max-width: 100%; /* Prevent images from overflowing */
+  }
+
+  .gallery-title {
+    font-size: 2.5rem; /* Adjust the font size on smaller screens */
+  }
+}

@@ -7,7 +7,6 @@ export default function About() {
   return (
     <>
       <AboutSection />
-      {/* <h1 className="about"> ABOUT</h1> */}
       <Footer />
     </>
   );
