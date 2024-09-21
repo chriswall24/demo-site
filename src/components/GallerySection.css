@@ -4,6 +4,7 @@
   align-items: center; /* Center content horizontally */
   overflow: hidden; /* Hide overflow to prevent unwanted scrollbars */
   padding: 40px; /* Increased padding to add more space around the gallery */
+  flex: 1;
 }
 
 .gallery-title {

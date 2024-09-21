@@ -5,9 +5,9 @@ import Footer from '../Footer';
 
 export default function About() {
   return (
-    <>
+    <div className="page-container">
       <AboutSection />
       <Footer />
-    </>
+    </div>
   );
 }

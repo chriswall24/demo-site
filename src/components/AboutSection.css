@@ -34,6 +34,10 @@
 
 /* this is the break */
 
+.about-container {
+  flex: 1;
+}
+
 .about-title {
   padding-top: 30px;
   font-size: 25px; /* Adjust the font size of the title */
