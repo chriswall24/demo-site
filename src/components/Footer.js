@@ -28,22 +28,24 @@ function Footer() {
           </div>
           <small className="website-rights">LOGO © 2024</small>
           <div className="social-icons">
-            <Link
-              className="social-icon-link fabebook"
-              to="/"
-              targer="_blank"
+          <a
+              className="social-icon-link facebook"
+              href="https://www.facebook.com/Chenzie/"
+              target="_blank"
               aria-label="Facebook"
+              rel="noopener noreferrer" /* Add this for security reasons when opening new tabs */
             >
-              <i className="fab fa-facebook-f"></i>
-            </Link>
-            <Link
-              class="social-icon-link instagram"
-              to="/"
+              <i className="fab fa-facebook"></i>
+            </a>
+            <a
+              className="social-icon-link instagram"
+              href="https://www.instagram.com/mezzochenzie/"
               target="_blank"
               aria-label="Instagram"
+              rel="noopener noreferrer" /* Add this for security reasons when opening new tabs */
             >
-              <i class="fab fa-instagram" />
-            </Link>
+              <i className="fab fa-instagram"></i>
+            </a>
             <Link
               class="social-icon-link youtube"
               to="/"
