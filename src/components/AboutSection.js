@@ -1,8 +1,7 @@
 import React from "react";
 import "../App.css";
-import { Button } from "./Button";
 import "./AboutSection.css";
-import AboutImage from "../images/img-7.jpg";
+import CoupleImage from "../images/chrischensinging.jpeg"
 
 function AboutSection() {
   return (
@@ -17,7 +16,7 @@ function AboutSection() {
           <p>Duis fringilla efficitur tortor sit amet suscipit. Vestibulum consequat massa vel ex scelerisque, a ultrices sapien eleifend. Donec fermentum, enim et dictum ornare, nisl orci varius arcu, vel interdum est lacus at enim. Cras vel vulputate turpis. Morbi venenatis, velit eget tempus tempor, erat odio porta velit, id lacinia est quam sed arcu. Proin feugiat justo ut nisi ultricies, sit amet aliquam ligula tristique. Pellentesque pharetra vestibulum dolor, nec tempor lectus lobortis eget.</p>
         </div>
         <div className="about-img">
-          <img src={AboutImage} alt='Bio Pic' />
+          <img src={CoupleImage} alt='Bio Pic' />
         </div>
       </div>
     </div>
