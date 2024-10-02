@@ -7,8 +7,8 @@ function HeroSection() {
   return (
     <div className="hero-container">
       {/* <video src="/videos/video-1.mp4" /> */}
-      <h1>Chenzie</h1>
-      <p>Mezzo Soprano</p>
+      <h1>Sharon Tadmor</h1>
+      <p>Soprano</p>
       <div className="hero-btns">
         <Button
           className="btns"
