@@ -30,7 +30,7 @@ function Footer() {
           <div className="social-icons">
           <a
               className="social-icon-link facebook"
-              href="https://www.facebook.com/Chenzie/"
+              href="https://www.facebook.com/sharon.tadmor/"
               target="_blank"
               aria-label="Facebook"
               rel="noopener noreferrer" /* Add this for security reasons when opening new tabs */
@@ -39,7 +39,7 @@ function Footer() {
             </a>
             <a
               className="social-icon-link instagram"
-              href="https://www.instagram.com/mezzochenzie/"
+              href="https://www.instagram.com/sharon_tadmor/"
               target="_blank"
               aria-label="Instagram"
               rel="noopener noreferrer" /* Add this for security reasons when opening new tabs */

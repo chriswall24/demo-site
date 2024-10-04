@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import "./ServicesSection.css";
-import Img1 from '../images/img-1.jpg'
+import Img1 from '../images/soloblack.jpg'
 import Img2 from '../images/img-2.jpg'
 import Img3 from '../images/img-3.jpg'
 
