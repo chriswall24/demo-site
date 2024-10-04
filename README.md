@@ -1,6 +1,6 @@
 # Welcome to my Demo App for Artist websites
 
-This project is designed to give artists an idea of what their site might look like.
+This project is designed to give artists an idea of what their site might look like. I decided to use my friend Shawi as our guinea pig!
 
 ## More to come
 
