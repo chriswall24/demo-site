@@ -48,7 +48,7 @@
 .about-card-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   gap: 20px; /* Adjust the space between the text and image */
   max-width: 1200px; /* Optional: limits the width of the container */
   margin: 0 auto; /* Center the container */
