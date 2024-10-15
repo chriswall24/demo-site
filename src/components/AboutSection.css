@@ -36,6 +36,7 @@
 
 .about-container {
   flex: 1;
+  background-color: #D8D8D8;
 }
 
 .about-title {
